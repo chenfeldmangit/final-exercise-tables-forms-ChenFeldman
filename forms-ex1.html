@@ -1,0 +1,46 @@
+<html>
+    <head></head>
+    <body>
+       <form method="POST">
+        <ul>
+            <fieldset>
+                <legend>Full Name</legend>
+            <li>
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="first_name" value="write something" required>
+            </li>
+            <li>
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="last_name" value="write something">
+            </li>
+        </fieldset>
+            <li>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" value="write something">
+            </li>
+            <li>
+                <label for="description">Describe Yourself</label>
+                <textarea id="description" name="description">Describe Yourself</textarea>
+            </li>
+            <li>
+                <label for="age">Age</label>
+                <input type="text" id="age" name="age" value="write something">
+            </li>
+            <li>
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender">
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </li>
+            <li>
+                <input type="file" name="file" id="file" accept="image/*" multiple>
+            </li>
+            <li>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </li>
+        </ul>
+       </form> 
+    </body>
+</html>
